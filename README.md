@@ -21,7 +21,7 @@ npm run dev
 
 ## 동작 및 제한
 
-- MP4 인코딩은 Mediabunny와 브라우저 WebCodecs를 사용합니다. 최신 Chrome 또는 Edge를 권장합니다.
+- MP4 인코딩은 Mediabunny와 브라우저 WebCodecs를 사용합니다. WebCodecs가 없는 브라우저에서는 MediaRecorder로 WebM 파일을 만듭니다. 최신 Chrome 또는 Edge를 권장합니다.
 - 사진 한 장을 약 2.8초간 보여 주며, 느린 확대 효과와 차량 정보 오버레이를 적용합니다.
 - 사진 파일은 브라우저 메모리에서만 처리됩니다. 앱은 계정, 서버 저장소, 결제, 실제 매물 사이트 연결을 제공하지 않습니다.
 - 매물 링크 자동 가져오기는 정적 GitHub Pages에서 원본 사이트의 CORS/API 접근 권한이 없어 동작하지 않습니다. 직접 사진을 올리고 정보를 입력해 주세요.
